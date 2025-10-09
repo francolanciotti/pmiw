@@ -6,7 +6,6 @@ let botonB = [];
 let imagenes = [];
 let sonido;
 
-//Cargar imagenes y fuente
 function preload(){
   for (let i = 0; i < 18; i++) {
     imagenes [i] = loadImage ("data/fotos/pantalla_" +nf(i+1,2) + ".jpg")
@@ -129,3 +128,4 @@ function mousePressed() {
     }
   }
 }
+
