@@ -56,29 +56,6 @@ function inicializar() {
     botonB [16] = "Reintentar"
 }
 
-function preload(){
-  imagenes[0] = loadImage("data/fotos/pantalla_01.jpeg");
-  imagenes[1] = loadImage("data/fotos/pantalla_02.jpeg"); 
-  imagenes[2] = loadImage("data/fotos/pantalla_03.jpeg"); 
-  imagenes[3] = loadImage("data/fotos/pantalla_04.jpeg"); 
-  imagenes[4] = loadImage("data/fotos/pantalla_05.jpeg"); 
-  imagenes[5] = loadImage("data/fotos/pantalla_06.jpeg");
-  imagenes[6] = loadImage("data/fotos/pantalla_07.jpeg"); 
-  imagenes[7] = loadImage("data/fotos/pantalla_08.jpeg"); 
-  imagenes[8] = loadImage("data/fotos/pantalla_09.jpeg"); 
-  imagenes[9] = loadImage("data/fotos/pantalla_10.jpeg"); 
-  imagenes[10] = loadImage("data/fotos/pantalla_11.jpeg");
-  imagenes[11] = loadImage("data/fotos/pantalla_12.jpeg"); 
-  imagenes[12] = loadImage("data/fotos/pantalla_13.jpeg");
-  imagenes[13] = loadImage("data/fotos/pantalla_14.jpeg");
-  imagenes[14] = loadImage("data/fotos/pantalla_15.jpeg");
-  imagenes[15] = loadImage("data/fotos/pantalla_16.jpeg");
-  imagenes[16] = loadImage("data/fotos/pantalla_17.jpeg");
-  imagenes[17] = loadImage("data/fotos/pantalla_18.jpeg");
-
-}
-
-
 function dibujaBoton(txt, x, y, w, h) {
   push();
   rectMode(CENTER);
