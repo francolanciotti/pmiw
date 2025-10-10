@@ -1,4 +1,4 @@
-  
+//https://youtu.be/_USezP01GKc  
 let estado;
 let textos = [];
 let botonA = [];
@@ -81,3 +81,4 @@ function mousePressed() {
     }
   }
 }
+
