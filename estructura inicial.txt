@@ -1,0 +1,27 @@
+gameManager [
+    player [
+        posicion x, y
+        tamaño alto, ancho
+        alturaAgacharse
+        saltoPosicion y
+
+    ]
+    obstaculos [
+        posicion x, y
+        tamaño alto, ancho
+        empujePlayer x
+    ]
+    meta [
+        posicion x
+        cambio de estado
+    ]
+    tiempo [
+        cambio de estado
+    ]
+    estado [
+        inicio, juego, ganar, perder
+    ]
+    suelo [
+        posicion y
+    ]
+]
